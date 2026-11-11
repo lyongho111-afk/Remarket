@@ -1,16 +1,16 @@
-FROM eclipse-temurin:25-jdk AS build
-WORKDIR /project
-COPY gradle/ gradle/
-COPY gradlew build.gradle settings.gradle gradle.properties ./
-COPY src/main/ src/main/
-RUN sed -i 's/\r$//' gradlew && sh gradlew --no-daemon bootJar && cp build/libs/*-SNAPSHOT.jar /tmp/campus.jar
+# Build the executable jar with the same Gradle and Java versions as the project.
+FROM gradle:9.3.0-jdk25 AS build
+WORKDIR /workspace
+COPY --chown=gradle:gradle . .
+RUN gradle --no-daemon bootJar
 
-FROM eclipse-temurin:25-jre
+# Keep the runtime image to a JRE and run the application as an unprivileged user.
+FROM eclipse-temurin:25-jre-alpine
 WORKDIR /app
-RUN groupadd --system campus && useradd --system -g campus campus && mkdir -p /var/lib/campus && chown campus:campus /var/lib/campus
-COPY --from=build /tmp/campus.jar app.jar
-COPY config/portal-links.properties config/portal-links.properties
-USER campus
-ENV SPRING_PROFILES_ACTIVE=hosted CAMPUS_STORAGE_DIR=/var/lib/campus
+RUN addgroup -S spring && adduser -S spring -G spring && mkdir -p /data/uploads && chown -R spring:spring /data
+ENV CAMPUS_UPLOAD_DIR=/data/uploads
+ENV JAVA_TOOL_OPTIONS="-XX:+UseSerialGC -XX:MaxRAMPercentage=55.0 -XX:InitialRAMPercentage=15.0 -Duser.timezone=Asia/Seoul"
 EXPOSE 8080
-ENTRYPOINT ["java", "-Duser.timezone=Asia/Seoul", "-jar", "app.jar"]
+COPY --from=build --chown=spring:spring /workspace/build/libs/*-SNAPSHOT.jar /app/app.jar
+USER spring
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]
