@@ -1,0 +1,15 @@
+**
+!Dockerfile
+!gradlew
+!build.gradle
+!settings.gradle
+!gradle.properties
+!gradle/
+!gradle/wrapper/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!src/
+!src/main/
+!src/main/**
+!config/
+!config/portal-links.properties

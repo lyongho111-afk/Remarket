@@ -1,0 +1,438 @@
+{
+  "asOf": "2026-11-10",
+  "campuses": {
+    "INHA": [
+      {
+        "title": "1학기 중간고사",
+        "category": "학사",
+        "start": "2026-04-20",
+        "end": "2026-04-24",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "1학기 기말고사",
+        "category": "학사",
+        "start": "2026-06-08",
+        "end": "2026-06-12",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "하계 계절학기 수업",
+        "category": "학사",
+        "start": "2026-06-22",
+        "end": "2026-07-15",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "2학기 우선수강신청",
+        "category": "학사",
+        "start": "2026-07-22",
+        "end": "2026-07-24",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "2학기 복학 신청",
+        "category": "학사",
+        "start": "2026-08-01",
+        "end": "2026-09-06",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "2학기 일반휴학 신청",
+        "category": "학사",
+        "start": "2026-08-01",
+        "end": "2026-09-25",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "2학기 전공·교양필수 수강신청",
+        "category": "학사",
+        "start": "2026-08-12",
+        "end": "2026-08-13",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "2학기 일반 수강신청",
+        "category": "학사",
+        "start": "2026-08-19",
+        "end": "2026-08-19",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "8월 학위수여식",
+        "category": "행사",
+        "start": "2026-08-21",
+        "end": "2026-08-21",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "2학기 등록",
+        "category": "학사",
+        "start": "2026-08-24",
+        "end": "2026-08-28",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "2학기 개강",
+        "category": "학사",
+        "start": "2026-08-31",
+        "end": "2026-08-31",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "2학기 수강신청 변경",
+        "category": "학사",
+        "start": "2026-09-04",
+        "end": "2026-09-04",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "비룡제 BLUE SAGA",
+        "category": "축제",
+        "start": "2026-09-16",
+        "end": "2026-09-18",
+        "url": "https://www.inhapress.com/news/articleView.html?idxno=21648"
+      },
+      {
+        "title": "청년정책 공모전 발표·시상 (월천홀)",
+        "category": "행사",
+        "start": "2026-09-20",
+        "end": "2026-09-20",
+        "url": "https://www.incheon.go.kr/IC010205/view?curPage=4&repSeq=DOM_0000000015597519"
+      },
+      {
+        "title": "2학기 수강포기",
+        "category": "학사",
+        "start": "2026-09-28",
+        "end": "2026-09-30",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "2학기 중간고사",
+        "category": "학사",
+        "start": "2026-10-19",
+        "end": "2026-10-23",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "청년리부트 취업 상담 (대학일자리플러스센터)",
+        "category": "행사",
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "url": "https://youth.incheon.go.kr/counseling/counselingCalendar.do?sch_ym=2026-11&site_div=all"
+      },
+      {
+        "title": "중도휴학 신청 마감 (수업일수 3/4선)",
+        "category": "학사",
+        "start": "2026-11-20",
+        "end": "2026-11-20",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "동계 계절학기 수강신청",
+        "category": "학사",
+        "start": "2026-11-23",
+        "end": "2026-11-24",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "우수인재인증 신청",
+        "category": "학사",
+        "start": "2026-11-23",
+        "end": "2026-11-24",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "정석학술정보관 휴먼북 모집 마감",
+        "category": "행사",
+        "start": "2026-12-04",
+        "end": "2026-12-04",
+        "url": "https://lib.inha.ac.kr/guide/bulletins/notice/880"
+      },
+      {
+        "title": "2학기 기말고사",
+        "category": "학사",
+        "start": "2026-12-07",
+        "end": "2026-12-11",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "2학기 보강주간",
+        "category": "학사",
+        "start": "2026-12-14",
+        "end": "2026-12-18",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      },
+      {
+        "title": "동계 계절학기 수업",
+        "category": "학사",
+        "start": "2026-12-21",
+        "end": "2027-01-13",
+        "url": "https://www.inha.ac.kr/kr/912/subview.do"
+      }
+    ],
+    "INU": [
+      {
+        "title": "1학기 개강",
+        "category": "학사",
+        "start": "2026-03-03",
+        "end": "2026-03-03",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "개교기념일",
+        "category": "학사",
+        "start": "2026-03-12",
+        "end": "2026-03-12",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "송도캠퍼스 대동제 · PAINT THE UNION",
+        "category": "축제",
+        "start": "2026-05-06",
+        "end": "2026-05-08",
+        "url": "https://inu.ac.kr/bbs/ui/642/423478/artclView"
+      },
+      {
+        "title": "1학기 기말시험",
+        "category": "학사",
+        "start": "2026-06-09",
+        "end": "2026-06-15",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "여름 계절학기",
+        "category": "학사",
+        "start": "2026-06-23",
+        "end": "2026-07-13",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "2학기 수강신청",
+        "category": "학사",
+        "start": "2026-08-18",
+        "end": "2026-08-21",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "8월 학위수여식",
+        "category": "행사",
+        "start": "2026-08-21",
+        "end": "2026-08-21",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "2학기 등록",
+        "category": "학사",
+        "start": "2026-08-24",
+        "end": "2026-08-28",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "2학기 개강",
+        "category": "학사",
+        "start": "2026-09-01",
+        "end": "2026-09-01",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "수업일수 1/2선",
+        "category": "학사",
+        "start": "2026-10-23",
+        "end": "2026-10-23",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "생명과학기술대학 바이오 페스티벌",
+        "category": "축제",
+        "start": "2026-11-04",
+        "end": "2026-11-04",
+        "url": "https://www.inu.ac.kr/bbs/inu/2594/432900/artclView.do"
+      },
+      {
+        "title": "수업일수 2/3선",
+        "category": "학사",
+        "start": "2026-11-09",
+        "end": "2026-11-09",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "AI·SW교육원 초청 특강 · 알고리즘 전쟁",
+        "category": "행사",
+        "start": "2026-11-11",
+        "end": "2026-11-11",
+        "url": "https://www.inu.ac.kr/bbs/inu/2594/432901/artclView.do"
+      },
+      {
+        "title": "재입학 신청",
+        "category": "학사",
+        "start": "2026-11-11",
+        "end": "2026-11-13",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "인천대·재능대 AI 게임잼 사전교육",
+        "category": "행사",
+        "start": "2026-11-24",
+        "end": "2026-11-24",
+        "url": "https://www.inu.ac.kr/bbs/inu/2611/432898/artclView.do"
+      },
+      {
+        "title": "2학기 기말시험",
+        "category": "학사",
+        "start": "2026-12-08",
+        "end": "2026-12-14",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "2학기 보강주간",
+        "category": "학사",
+        "start": "2026-12-15",
+        "end": "2026-12-21",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "인천대·재능대 AI 게임잼 본행사",
+        "category": "행사",
+        "start": "2026-12-18",
+        "end": "2026-12-19",
+        "url": "https://www.inu.ac.kr/bbs/inu/2611/432898/artclView.do"
+      },
+      {
+        "title": "겨울 계절학기",
+        "category": "학사",
+        "start": "2026-12-22",
+        "end": "2027-01-13",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "전과 신청",
+        "category": "학사",
+        "start": "2027-01-07",
+        "end": "2027-01-11",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      },
+      {
+        "title": "부·복수·연계전공 신청",
+        "category": "학사",
+        "start": "2027-01-27",
+        "end": "2027-01-29",
+        "url": "https://inu.ac.kr/bbs/safety/358/380929/download"
+      }
+    ],
+    "CHUNGWOON": [
+      {
+        "title": "인천캠퍼스 학위수여식",
+        "category": "행사",
+        "start": "2026-02-21",
+        "end": "2026-02-21",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "1학기 개강",
+        "category": "학사",
+        "start": "2026-03-03",
+        "end": "2026-03-03",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "인천캠퍼스 체육대회",
+        "category": "행사",
+        "start": "2026-05-22",
+        "end": "2026-05-22",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "1학기 기말고사",
+        "category": "학사",
+        "start": "2026-06-09",
+        "end": "2026-06-15",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "2학기 수강신청",
+        "category": "학사",
+        "start": "2026-08-10",
+        "end": "2026-08-14",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "2학기 개강",
+        "category": "학사",
+        "start": "2026-09-01",
+        "end": "2026-09-01",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "2학기 수강신청 정정",
+        "category": "학사",
+        "start": "2026-09-01",
+        "end": "2026-09-07",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "2학기 수강철회",
+        "category": "학사",
+        "start": "2026-09-21",
+        "end": "2026-09-29",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "청운학술문화예술제 (인천캠퍼스)",
+        "category": "축제",
+        "start": "2026-10-02",
+        "end": "2026-10-02",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "다전공·전과 신청",
+        "category": "학사",
+        "start": "2026-11-02",
+        "end": "2026-11-06",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "동계 계절학기 수강신청",
+        "category": "학사",
+        "start": "2026-11-09",
+        "end": "2026-11-13",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "수업일수 3/4선",
+        "category": "학사",
+        "start": "2026-11-18",
+        "end": "2026-11-18",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "2학기 기말고사",
+        "category": "학사",
+        "start": "2026-12-08",
+        "end": "2026-12-14",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "겨울방학 시작",
+        "category": "학사",
+        "start": "2026-12-15",
+        "end": "2026-12-15",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "2학기 강의평가",
+        "category": "학사",
+        "start": "2026-12-15",
+        "end": "2026-12-24",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      },
+      {
+        "title": "성적 이의신청·정정",
+        "category": "학사",
+        "start": "2026-12-21",
+        "end": "2026-12-23",
+        "url": "https://cyber.chungwoon.ac.kr/ilos/st/schedule/academic_calendar_list_form.acl"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>토스 테스트 지급 내역 연결 · 캠퍼스 리마켓 관리자</title>
+<style>
+*{box-sizing:border-box}body{max-width:780px;margin:36px auto;padding:0 20px;font:1rem/1.6 system-ui,sans-serif;color:#233e32}h1{font-size:1.7rem}h2{font-size:1.2rem}form{border-top:1px solid #cddad2;margin:28px 0;padding:12px 0}label{display:block;margin:12px 0}input{display:block;width:100%;max-width:34rem;padding:8px;font:inherit}button{padding:8px 14px;font:inherit}output{display:block;margin:8px 0}a{color:#1f6047}
+</style></head><body>
+<a href="/admin/">관리자 홈</a>
+<h1>토스 테스트 지급 내역 연결</h1>
+<p>외부에서 발급받은 법인 테스트 셀러와 지급 기록을 연결합니다. 이 화면은 토스에 조회 요청만 보냅니다.</p>
+<p id="session" role="status">관리자 권한을 확인하고 있습니다.</p>
+<form id="seller"><h2>1. 법인 테스트 셀러 연결</h2>
+<label>프로젝트 판매자의 회원 번호<input name="memberId" type="number" min="1" max="9007199254740991" required></label>
+<label>토스가 발급한 셀러 ID<input name="sellerId" maxlength="64" required></label>
+<label>등록할 때 상점에서 지정한 refSellerId<input name="refSellerId" maxlength="64" required></label>
+<button disabled>셀러 확인 및 연결</button><output aria-live="polite"></output></form>
+<form id="order"><h2>2. 외부 지급 기록 연결</h2>
+<p>토스 에스크로에서 구매확정한 테스트 주문을 선택하세요. 외부 지급 건의 refPayoutId는 프로젝트 주문번호와 같아야 합니다.</p>
+<label>프로젝트 주문번호<input name="orderId" maxlength="64" required></label>
+<label>토스가 발급한 지급 ID<input name="payoutId" maxlength="64" required></label>
+<button disabled>지급 내역 확인 및 연결</button><output aria-live="polite"></output></form>
+<script src="/admin/payout-test.js"></script>
+</body></html>
