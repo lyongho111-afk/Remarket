@@ -5,6 +5,7 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
+import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
@@ -18,7 +19,11 @@ public class NotificationRecipientMigration implements ApplicationRunner {
     public void migrate(){
         // Install the stronger per-recipient protection before removing the old
         // one-recipient-per-order constraint. No rows or delivery states change.
-        db.execute("CREATE UNIQUE INDEX IF NOT EXISTS uq_notification_recipient_idx ON seller_notifications(order_id,seller_member_id)");
+        try{
+            db.execute("CREATE UNIQUE INDEX uq_notification_recipient_idx ON seller_notifications(order_id,seller_member_id)");
+        } catch (DataAccessException e) {
+        // Index already exists, safe to ignore
+        }
         List<String> legacy=db.queryForList("""
             SELECT tc.CONSTRAINT_NAME FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS tc
             JOIN INFORMATION_SCHEMA.KEY_COLUMN_USAGE k
