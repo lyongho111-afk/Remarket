@@ -4,6 +4,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+app/campus-remarket.jar
 
 ### STS ###
 .apt_generated
@@ -22,8 +23,6 @@ bin/
 *.iws
 *.iml
 *.ipr
-*.jar
-*.war
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
