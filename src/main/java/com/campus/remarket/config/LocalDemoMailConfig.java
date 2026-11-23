@@ -1,17 +1,33 @@
 package com.campus.remarket.config;
 
-import java.time.Instant;
-import java.util.*;
 import jakarta.mail.internet.MimeMessage;
-import org.springframework.context.annotation.*;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Profile;
 import org.springframework.mail.MailSendException;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
-/** Opt-in local demonstration. No SMTP connection or external message is sent. */
+import java.time.Instant;
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Deque;
+import java.util.List;
+
+/**
+ * Opt-in local demonstration. No SMTP connection or external message is sent.
+ */
 @Configuration
 @Profile("local-demo")
 public class LocalDemoMailConfig {
-    public record Message(long id, String to, String subject, String body, Instant receivedAt) {}
+    @Bean
+    @Primary
+    Mailbox localDemoMailbox() {
+        return new Mailbox();
+    }
+
+    public record Message(long id, String to, String subject, String body, Instant receivedAt) {
+    }
 
     public static class Mailbox extends JavaMailSenderImpl {
         private final Deque<Message> messages = new ArrayDeque<>();
@@ -32,10 +48,8 @@ public class LocalDemoMailConfig {
             }
         }
 
-        public synchronized List<Message> messages() { return List.copyOf(messages); }
+        public synchronized List<Message> messages() {
+            return List.copyOf(messages);
+        }
     }
-
-    @Bean
-    @Primary
-    Mailbox localDemoMailbox() { return new Mailbox(); }
 }
